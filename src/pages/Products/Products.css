@@ -1,95 +1,96 @@
 .PageWrapper {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 8% 4%;
+  width: 99%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
 }
 
 .MainHeading {
-    margin: 0;
+  margin: 0;
 }
 
 .OrdersWrapper {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    padding: 24px 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 23px 0;
 }
 
 .FilterWrapper {
-    width: 180px;
-    margin-top:  25px;
+  width: 179px;
+  margin-top: 23px;
 }
 
 .FilterWrapper h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .FilterOptions {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .FilterCheckbox {
-    margin: 6px 0;
-    cursor: pointer;
+  margin: 5px 0;
+  cursor: pointer;
 }
 
 .FilterCheckbox input {
-    margin-right: 12px;
+  margin-right: 11px;
 }
 
 .OrderTable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 25px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 26px;
 }
 
-.OrderTable th, .OrderTable td {
-    text-align: left;
-    padding: 12px 24px;
-    font-size: 14px;
+.OrderTable th,
+.OrderTable td {
+  text-align: left;
+  padding: 11px 23px;
+  font-size: 13px;
 }
 
 .TableRow td {
-    background-color: #fff;
-    border-bottom: 4px solid #F6F7FB;
+  background-color: #fff;
+  border-bottom: 4px solid #f6f8fb;
 }
 
 .PrimaryText {
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
 }
 
 .SecondaryText {
-    color: #8c8c8c;
+  color: #8c8c8c;
 }
 
 .SearchBoxDiv {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .SearchBox {
-    width: 40%;
-    padding: 12px 24px;
-    font-size: 15px;
-    border: 0;
-    border-bottom: 2px solid #8c8c8c;
-    margin: 0 36px 0 0;
-    outline: none;
-    margin-right:20px;
+  width: 40%;
+  padding: 12px 23px;
+  font-size: 14px;
+  border: 0;
+  border-bottom: 1px solid #8c8c8c;
+  margin: 0 36px 0 0;
+  outline: none;
+  margin-right: 19px;
 }
 
 .ResetBtn {
-    display: inline-block;
-    border-radius: 30px;
-    padding: 14px 36px;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    background-color: #20b883;
-    color: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer; 
+  display: inline-block;
+  border-radius: 29px;
+  padding: 13px 35px;
+  font-size: 11px;
+  font-weight: 499;
+  letter-spacing: 2px;
+  background-color: #20b883;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
